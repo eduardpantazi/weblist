@@ -1,0 +1,106 @@
+/* Overwrite default bootrstrap settings */
+
+body {
+	font-family: "Lato", Open Sans, Arial, sans-serif;
+	background-color: #f7f7f7;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+
+a:hover {
+	text-decoration: none;
+}
+
+.bg-primary {
+	background-color: #2b333f!important;
+}
+/*
+.nav-link {
+	font-weight: bold;
+}
+*/
+
+.navbar-btn {
+	border-radius: 0;
+}
+
+li.nav-item:hover {
+	background-color: rgba(255,255,255, .2);
+	color: #fff;
+}
+
+.navbar {
+	padding: 0;
+	border-top: 30px solid linear-gradient(left, #ffffff 0%, #000000 100%);
+}
+
+.navbar-brand {
+	font-style: italic;
+}
+
+/* END OVERWRITE */
+
+/* CUSTOM SETTINGS */
+
+.panel-user {
+	background-color: #fff;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	border: 1px solid #d7d7d7;
+	display: block;
+}
+
+.panel-heading {
+	background-color: #2b333f;
+	color: #fff;
+	min-height: 35px;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+.panel-content {
+	padding: 5px 10px;
+	display: flex;
+}
+
+.panel-avatar {
+	border-radius: 50%;
+	max-width: 120px; 
+}
+
+.panel-heading span a {
+	color: #fff;
+}
+
+.panel-heading span a:hover {
+	color: #fff;
+}
+
+.gold {
+	color: #ffdb86;
+}
+
+.panel-content span.panel-badge {
+	position: relative;
+    font-size: 25px;
+    color: #ffdb86;
+    left: -25px;
+}
+
+.panel-heading span {
+	font-size: 60%;
+}
+
+.thin-border {
+	border: 2px solid #fff;
+}
+
+.panel-content table.user {
+	float: right;
+	display: inline-flex;
+}
